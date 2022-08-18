@@ -11,11 +11,11 @@ namespace task_homework
             Console.WriteLine("Apple".IsContainsDigit());
             Console.WriteLine("appLe".ToCapitalize());
 
-            int[] arr = "iPhone".GetValueIndexes('m');
-            for(int i = 0; i < arr.Length; i++)
-            {
-                Console.WriteLine(i);
-            }
+            "iPhomemm".GetValueIndexes('m');
+            
+            
+            
+            
         } 
         
     }

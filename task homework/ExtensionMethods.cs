@@ -45,7 +45,7 @@ namespace task_homework
             return  n.ToString();
             
         }
-        public static int[] GetValueIndexes(this string str,char m)
+        public static void GetValueIndexes(this string str,char m)
         {
             int [] arr =new int[0];
             for (int i = 0; i < str.Length; i++) 
@@ -60,8 +60,12 @@ namespace task_homework
                 }
               
             }
+            foreach (var item in arr)
+            {
+                Console.WriteLine(item);
+            }
 
-            return arr;
+            
         }
 
     }
